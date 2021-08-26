@@ -1,0 +1,71 @@
+site_name: Adevinta 
+site_url: https://github.corp.ebay.com/clsfd/Document
+site_description: 'Blog for CLSFD ATEAM'
+site_author: 'Xin, Gen'
+google_analytics:
+  - 'UA-127044749-1'
+  - 'auto'
+nav:
+- Home: 
+  - Index: index.md
+  - How to contribute: help.md
+- Project:
+  - This is 0: project/about.md
+- Batch Support:
+  - 2018:
+    - Sep:
+      - 09: batch_support/batch_example.md
+    - Oct:
+      - 16: batch_support/2018_10_16.md
+- Share:
+  - 2018:
+    - Sep: 
+      - unicode: share/unicode.md 
+      - ssh: share/ssh.md
+      - How to build ths site: share/build_this_site.md
+    - Oct:
+      - Elastic: share/elastic.md
+      - test: share/mytest.md
+      - Difference between Teradata and Hive: share/diffrence_between_hive_and_teradata.md
+      - awk: share/awk.md
+    - Nov:
+      - How to do concurrent jobs: share/shell_concurrent.md
+- Organization:
+  - Memebers: organization/our.md 
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+extra:
+  disqus: disqus_UZCl0RB3gG
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  feature:
+    tabs: true
+  logo: img/favicon.ico 
+markdown_extensions:
+  - meta
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
