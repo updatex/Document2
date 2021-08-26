@@ -1,0 +1,1229 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Blog for CLSFD ATEAM">
+      
+      
+      
+        <meta name="author" content="Xin, Gen">
+      
+      
+        <link rel="canonical" href="https://github.corp.ebay.com/clsfd/Document/share/unicode/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.5">
+    
+    
+      
+        <title>unicode - Adevinta</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.be71726b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+  
+
+
+
+  
+  
+
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-127044749-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Adevinta" class="md-header__button md-logo" aria-label="Adevinta" data-md-component="logo">
+      
+  <img src="../../img/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Adevinta
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              unicode
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Adevinta" class="md-nav__button md-logo" aria-label="Adevinta" data-md-component="logo">
+      
+  <img src="../../img/favicon.ico" alt="logo">
+
+    </a>
+    Adevinta
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      <label class="md-nav__link" for="__nav_1">
+        Home
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Home" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../help/" class="md-nav__link">
+        How to contribute
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Project
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Project" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Project
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/about/" class="md-nav__link">
+        This is 0
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Batch Support
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Batch Support" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Batch Support
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      <label class="md-nav__link" for="__nav_3_1">
+        2018
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="2018" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          2018
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" type="checkbox" id="__nav_3_1_1" >
+      
+      <label class="md-nav__link" for="__nav_3_1_1">
+        Sep
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sep" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sep
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../batch_support/batch_example/" class="md-nav__link">
+        09
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" type="checkbox" id="__nav_3_1_2" >
+      
+      <label class="md-nav__link" for="__nav_3_1_2">
+        Oct
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Oct" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Oct
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../batch_support/2018_10_16/" class="md-nav__link">
+        16
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      <label class="md-nav__link" for="__nav_4">
+        Share
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Share" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Share
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" checked>
+      
+      <label class="md-nav__link" for="__nav_4_1">
+        2018
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="2018" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          2018
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_1" type="checkbox" id="__nav_4_1_1" checked>
+      
+      <label class="md-nav__link" for="__nav_4_1_1">
+        Sep
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Sep" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sep
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          unicode
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        unicode
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    常见字符编码
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unicode" class="md-nav__link">
+    unicode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java" class="md-nav__link">
+    JAVA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hadoop-text-type" class="md-nav__link">
+    HADOOP Text type
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    汉字编码演化过程
+  </a>
+  
+    <nav class="md-nav" aria-label="汉字编码演化过程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gb2312" class="md-nav__link">
+    GB2312
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gbk" class="md-nav__link">
+    GBK
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gb18030" class="md-nav__link">
+    GB18030
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#big-5" class="md-nav__link">
+    BIG-5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gbk_1" class="md-nav__link">
+    为什么中国人用GBK比较多
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    记事本
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teradata-unicode" class="md-nav__link">
+    Teradata UNICODE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hive-spark" class="md-nav__link">
+    hive spark
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    Reference
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ssh/" class="md-nav__link">
+        ssh
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../build_this_site/" class="md-nav__link">
+        How to build ths site
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_2" type="checkbox" id="__nav_4_1_2" >
+      
+      <label class="md-nav__link" for="__nav_4_1_2">
+        Oct
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Oct" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Oct
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elastic/" class="md-nav__link">
+        Elastic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mytest/" class="md-nav__link">
+        test
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diffrence_between_hive_and_teradata/" class="md-nav__link">
+        Difference between Teradata and Hive
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../awk/" class="md-nav__link">
+        awk
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_3" type="checkbox" id="__nav_4_1_3" >
+      
+      <label class="md-nav__link" for="__nav_4_1_3">
+        Nov
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Nov" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Nov
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shell_concurrent/" class="md-nav__link">
+        How to do concurrent jobs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Organization
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Organization" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Organization
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organization/our/" class="md-nav__link">
+        Memebers
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    常见字符编码
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unicode" class="md-nav__link">
+    unicode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java" class="md-nav__link">
+    JAVA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hadoop-text-type" class="md-nav__link">
+    HADOOP Text type
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    汉字编码演化过程
+  </a>
+  
+    <nav class="md-nav" aria-label="汉字编码演化过程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gb2312" class="md-nav__link">
+    GB2312
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gbk" class="md-nav__link">
+    GBK
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gb18030" class="md-nav__link">
+    GB18030
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#big-5" class="md-nav__link">
+    BIG-5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gbk_1" class="md-nav__link">
+    为什么中国人用GBK比较多
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    记事本
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teradata-unicode" class="md-nav__link">
+    Teradata UNICODE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hive-spark" class="md-nav__link">
+    hive spark
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    Reference
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>unicode</h1>
+                
+                <p>Xin, Gen 2018-10-09</p>
+<h3 id="_1">常见字符编码</h3>
+<table>
+<thead>
+<tr>
+<th>Country/District</th>
+<th>Encode</th>
+<th>Start Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AU</td>
+<td>ASCII</td>
+<td>1967</td>
+</tr>
+<tr>
+<td>EU</td>
+<td>ISO 8859-1</td>
+<td>1998</td>
+</tr>
+<tr>
+<td>RUS</td>
+<td>KOI-8</td>
+<td></td>
+</tr>
+<tr>
+<td>CN</td>
+<td>GB 18030 or GB 2312 or BIG-5</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="unicode">unicode</h3>
+<ul>
+<li>解决字符编码方案局限</li>
+<li>初始版本定义2个字节</li>
+<li>开始推广发展并不好，比如英文字符浪费空间等</li>
+<li>网络中，UTF (UCS Transfer Format) 出现<ul>
+<li>UTF-8 使用1-4个字节编码，ASCII用1个字节</li>
+</ul>
+</li>
+</ul>
+<p>unicode编码范围 |UTF-8
+---|----|---
+0000 0000-0000 007F | 0xxxxxxx
+0000 0080-0000 07FF | 110xxxxx 10xxxxxx
+0000 0800-0000 FFFF | 1110xxxx 10xxxxxx 10xxxxxx
+0001 0000-0010 FFFF | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx</p>
+<ul>
+<li>分成17个代码级别（平面）<ul>
+<li>第一个是基本多语言级别， 范围 [U+0000, U+FFFF]</li>
+<li>其余16个代码级别, 称为辅助字符，范围 [U+010000, U+10FFFF]</li>
+</ul>
+</li>
+</ul>
+<h3 id="java">JAVA</h3>
+<ol>
+<li>
+<p>UTF-16</p>
+<ul>
+<li>代码单元 16bit</li>
+<li>基本多语言级别中，2048个坑没有被占用 [U+D800, U+DFFF]</li>
+<li>如果字符属于基本语言级别，直接2个字节。</li>
+<li>如果字符属于辅助字符，则第一个字节 范围[U+D800 ,U+DBFF]，第二个字节 范围[U+DC00, U+DFFF]</li>
+<li>如此可以轻易的判断字符是否是基本语言级别，判断是否是辅助字符，判断是否是第一个或者第二个字符</li>
+</ul>
+</li>
+<li>
+<p>char 数据类型</p>
+<ul>
+<li>采用utf-16编码表示的unicode码点的代码单元</li>
+<li>大多数用一个代码单元(码元），辅助需要一对代码单元
+<div class="highlight"><pre><span></span><code>String greeting = &quot;Hello&quot;;
+
+// length 代码单元 数量
+int n = greeting.length();
+// 返回码点数量，实际数量，大部分case应该没有影响，但是特殊字符的时候，特别需要注意
+int cpcount = greeting.codePointCount(0, greeting.length);
+
+// 返回某个代码单元
+char first = greeting.charAt(0);
+// 返回某个码点
+int index = greeting.offsetByCodePoints(0,i)
+int cp = greeting.codePointAt(index)
+</code></pre></div></li>
+</ul>
+</li>
+<li>区分码点和代码单元<ul>
+<li>码点 对应 unicode 一个字符</li>
+<li>代码单元，即实际存储码点的基本单元，可能2个代码单元表示一个码点</li>
+</ul>
+</li>
+</ol>
+<h3 id="hadoop-text-type">HADOOP Text type</h3>
+<ul>
+<li>using standard utf-8 encoding</li>
+<li>to serialize, deseriaze and compare texts at byte level.</li>
+<li>string traversal without converting byte array to string</li>
+<li>Text is a replacement for the UTF8 class, which was deprecated because it didn’t support strings whose encoding was over 32,767 bytes, and because it used Java’s modified UTF-8</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Text</th>
+<th>String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>charAt</td>
+<td>int类型，unicode scalar value</td>
+<td>char,返回代码单元</td>
+</tr>
+<tr>
+<td>getLength</td>
+<td>返回bytes数量</td>
+<td>返回代码单元数量</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">汉字编码演化过程</h2>
+<h3 id="gb2312">GB2312</h3>
+<ul>
+<li>二个字节表示，高位字节 [0xA1,0xF7]，低位字节[0xA1, 0xFE], 组合数大约7000+的样子</li>
+<li>GB2312包括ASCII码，这里叫全角，如果用ASCII则是半角</li>
+</ul>
+<h3 id="gbk">GBK</h3>
+<ul>
+<li>后期发现编码不够用了，突破了低位字节必须大约127的限制，规定第一个字节大于127，则是汉字</li>
+<li>增加了 2万多个字符</li>
+</ul>
+<h3 id="gb18030">GB18030</h3>
+<ul>
+<li>增加了少数民族字符 几千个</li>
+</ul>
+<h3 id="big-5">BIG-5</h3>
+<ul>
+<li>湾湾常用</li>
+</ul>
+<h3 id="gbk_1">为什么中国人用GBK比较多</h3>
+<ul>
+<li>因为utf-8 编码中文体积较大，GBK 2个字节就可以表示一个汉字</li>
+</ul>
+<h3 id="_3">记事本</h3>
+<ul>
+<li>联通乱码</li>
+<li>UTF-8编码保存，会插入3个不可见字符(0xEF BB BF，即bom)</li>
+</ul>
+<h3 id="teradata-unicode">Teradata UNICODE</h3>
+<p><a href="https://community.teradata.com/t5/Database/UTF-8-or-UTF-16/m-p/61680">https://community.teradata.com/t5/Database/UTF-8-or-UTF-16/m-p/61680</a></p>
+<div class="highlight"><pre><span></span><code>Hi Nishant,
+
+UNICODE in Teradata is always stored as UTF-16, i.e. two bytes per character.
+
+In 13.10 there&#39;s COMPRESS USING TransUnicodeToUTF8 DECOMPRESS USING TransUTF8ToUnicode to change internal storage to UTF-8 which mightreduce storage when most chars are latin.
+</code></pre></div>
+<h3 id="hive-spark">hive spark</h3>
+<ul>
+<li>default use utf-8 to store unicode</li>
+</ul>
+<h3 id="reference">Reference</h3>
+<ol>
+<li><a href="https://link.zhihu.com/?target=http%3A//www.qianxingzhem.com/post-1499.html">网页编码就是那点事</a></li>
+<li>JAVA核心技术 1</li>
+<li><a href="https://www.cnblogs.com/huiAlex/p/8182586.html">https://www.cnblogs.com/huiAlex/p/8182586.html</a></li>
+<li><a href="https://community.teradata.com/t5/Database/UTF-8-or-UTF-16/m-p/61680">https://community.teradata.com/t5/Database/UTF-8-or-UTF-16/m-p/61680</a></li>
+</ol>
+                
+              
+              
+                
+
+
+  <h2 id="__comments">Comments</h2>
+  <div id="disqus_thread"></div>
+  <script>var disqus_config=function(){this.page.url="https://github.corp.ebay.com/clsfd/Document/share/unicode/",this.page.identifier="share/unicode/"};window.addEventListener("load",function(){var e=document,i=e.createElement("script");i.src="//disqus_UZCl0RB3gG.disqus.com/embed.js",i.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(i)})</script>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../batch_support/2018_10_16/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 16" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              16
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../ssh/" class="md-footer__link md-footer__link--next" aria-label="Next: ssh" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              ssh
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56a63758.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
